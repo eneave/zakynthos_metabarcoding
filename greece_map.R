@@ -1,15 +1,15 @@
-##########################
-## Map for Greece stuff ##
-##########################
+####################
+## Map for Greece ##
+####################
 
-setwd("C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map")
+setwd("C:/YourDirectoryHere/map")
 
 ## load API key
 # youtube tutortial on google API: https://www.youtube.com/watch?v=Of_M4kcE9yM&t=0s
 
 library("rstudioapi")
 
-register_google(key = "AIzaSyDacM5UYCWDBiwOioS3tV1tD5ASqkKPHRo")
+register_google(key = "YourAPIKeyHere")
 
 library("ggplot2")
 library("ggmap")
@@ -52,7 +52,7 @@ ggmap(bigzak, extent = "panel", legend = "bottomright") +
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bigmap.jpg", 
+ggsave(filename="C:/YourDirectoryHere/map/bigmap.jpg", 
        plot = bigmap, width = 5, height = 5, dpi = 300, units = "in")
 
 
@@ -82,10 +82,8 @@ bigmap2 <-
           legend.background = element_rect(fill = "transparent"),
           legend.box.background = element_rect(fill = "transparent"),
           legend.key = element_rect(fill = "transparent"))
-
-## DID not work, figure out how to make background transparent later...
   
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bigmap_transparent.png", 
+ggsave(filename="C:/YourDirectoryHere/map/bigmap_transparent.png", 
          plot = bigmap2, width = 3, height = 3, dpi = 300, units = "in")
 
   
@@ -108,11 +106,11 @@ ggmap(zak, extent = "panel", legend = "bottomright") +
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/mainmap.jpg", 
+ggsave(filename="C:/YourDirectoryHere/map/mainmap.jpg", 
        plot = mainmap, width = 6.5, height = 6.5, dpi = 300, units = "in")
 
 
-#ggmap(get_googlemap('Zakynthos', zoom = 13, style = paste0("feature:all|element:labels|visibility:off")))
+
 
 
 
