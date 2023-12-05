@@ -138,7 +138,7 @@ heatmap3 <-
         legend.direction = "vertical", 
         legend.box = "vertical") 
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/sequences_bubbleplot/heatmap_nis.jpg", 
+ggsave(filename="C:/yourdirectoryhere/heatmap_nis.jpg", 
        plot = heatmap3, width = 8, height = 12, dpi = 300, units = "in")
 
 #####
@@ -218,7 +218,7 @@ bubbleplot1 <-
         legend.direction = "vertical", 
         legend.box = "vertical")  
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/sequences_bubbleplot/bubblplot_molecular_nis.jpg", 
+ggsave(filename="C:/yourdirectoryhere/bubblplot_molecular_nis.jpg", 
        plot = bubbleplot1, width = 10, height = 8, dpi = 300, units = "in")
 
 
