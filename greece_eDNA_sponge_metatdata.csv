@@ -1,0 +1,132 @@
+id_seq,sample_type,observer,location,time,sponge_type,over100,reads_persample,counts_persample,x_persample
+sample.DBE_A_BLACK1,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_A_BLACK2,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_A_BLACK3,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_B_BLACK1,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_B_BLACK2,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_B_BLACK3,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_C_BLACK1,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBE_C_BLACK3,sponge,NA,Dafni Beach,Evening,Black,n,NA,NA,NA
+sample.DBM_A_BLACK1,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_A_BLACK2,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_A_BLACK3,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_B_BLACK1,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_B_BLACK3,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_C_BLACK1et,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_C_BLACK2,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBM_C_BLACK3,sponge,NA,Dafni Beach,Morning,Black,n,NA,NA,NA
+sample.DBE_B_BROWN1,sponge,NA,Dafni Beach,Evening,Brown,n,NA,NA,NA
+sample.DBE_B_BROWN2,sponge,NA,Dafni Beach,Evening,Brown,n,NA,NA,NA
+sample.DBE_B_BROWN4,sponge,NA,Dafni Beach,Evening,Brown,n,NA,NA,NA
+sample.DBE_C_BROWN1,sponge,NA,Dafni Beach,Evening,Brown,n,NA,NA,NA
+sample.DBE_C_BROWN2,sponge,NA,Dafni Beach,Evening,Brown,n,NA,NA,NA
+sample.DBM_A_BROWN1,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.DBM_A_BROWN3,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.DBM_B_BROWN1,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.DBM_B_BROWN3,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.DBM_C_BROWN1et,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.DBM_C_BROWN2,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.DBM_C_BROWN3,sponge,NA,Dafni Beach,Morning,Brown,n,NA,NA,NA
+sample.KE_A_BROWN2,sponge,NA,Korakonissi,Evening,Brown,n,NA,NA,NA
+sample.KE_B_BROWN2,sponge,NA,Korakonissi,Evening,Brown,n,NA,NA,NA
+sample.KE_C_BROWN2,sponge,NA,Korakonissi,Evening,Brown,n,NA,NA,NA
+sample.KE_C_BROWN3,sponge,NA,Korakonissi,Evening,Brown,n,NA,NA,NA
+sample.KM_C_BROWN2,sponge,NA,Korakonissi,Morning,Brown,n,NA,NA,NA
+sample.KM_C_BROWN3,sponge,NA,Korakonissi,Morning,Brown,n,NA,NA,NA
+sample.DBE_A_2eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,n,NA,NA,NA
+sample.DBE_A_3eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,n,NA,NA,NA
+sample.DBE_B_2eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,n,NA,NA,NA
+sample.DBE_B_3eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,n,NA,NA,NA
+sample.DBE_C_1eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,n,NA,NA,NA
+sample.DBE_C_3eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,n,NA,NA,NA
+sample.DBM_A_1eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.DBM_A_2eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.DBM_A_3eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.DBM_B_1eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.DBM_B_2eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.DBM_B_3eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.DBM_C_1eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,n,NA,NA,NA
+sample.KE_A_1eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KE_A_2eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KE_A_3eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KE_B_1eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KE_B_3eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KE_C_1eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KE_C_3eDNA,eDNA,NA,Korakonissi,Evening,eDNA,n,NA,NA,NA
+sample.KM_A_1eDNA,eDNA,NA,Korakonissi,Morning,eDNA,n,NA,NA,NA
+sample.KM_B_1eDNA,eDNA,NA,Korakonissi,Morning,eDNA,n,NA,NA,NA
+sample.KM_B_3eDNA,eDNA,NA,Korakonissi,Morning,eDNA,n,NA,NA,NA
+sample.KM_C_2eDNA,eDNA,NA,Korakonissi,Morning,eDNA,n,NA,NA,NA
+sample.KE_A_PURPLE2,sponge,NA,Korakonissi,Evening,Purple,n,NA,NA,NA
+sample.KE_A_PURPLE3,sponge,NA,Korakonissi,Evening,Purple,n,NA,NA,NA
+sample.KE_B_PURPLE3,sponge,NA,Korakonissi,Evening,Purple,n,NA,NA,NA
+sample.KE_C_PURPLE1,sponge,NA,Korakonissi,Evening,Purple,n,NA,NA,NA
+sample.KE_C_PURPLE2,sponge,NA,Korakonissi,Evening,Purple,n,NA,NA,NA
+sample.KE_C_PURPLE3,sponge,NA,Korakonissi,Evening,Purple,n,NA,NA,NA
+sample.KM_A_PURPLE2,sponge,NA,Korakonissi,Morning,Purple,n,NA,NA,NA
+sample.KM_B_PURPLE1,sponge,NA,Korakonissi,Morning,Purple,n,NA,NA,NA
+sample.KM_B_PURPLE2,sponge,NA,Korakonissi,Morning,Purple,n,NA,NA,NA
+sample.KM_C_PURPLE1,sponge,NA,Korakonissi,Morning,Purple,n,NA,NA,NA
+sample.KM_C_PURPLE2,sponge,NA,Korakonissi,Morning,Purple,n,NA,NA,NA
+sample.DBE_A_unkown,sponge,NA,Dafni Beach,Evening,Unknown,n,NA,NA,NA
+sample.DBE_A_YELLOW1,sponge,NA,Dafni Beach,Evening,Yellow,n,NA,NA,NA
+sample.DBE_A_YELLOW2,sponge,NA,Dafni Beach,Evening,Yellow,n,NA,NA,NA
+sample.DBE_A_YELLOW3,sponge,NA,Dafni Beach,Evening,Yellow,n,NA,NA,NA
+sample.DBM_A_YELLOW1,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_A_YELLOW2,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_A_YELLOW3,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_B_YELLOW1,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_B_YELLOW2,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_B_YELLOW3,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_C_YELLOW1,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_C_YELLOW2,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBM_C_YELLOW3,sponge,NA,Dafni Beach,Morning,Yellow,n,NA,NA,NA
+sample.DBE_C_BLACK2,sponge,NA,Dafni Beach,Evening,Black,y,8556,NA,8556
+sample.DBM_B_BLACK2et,sponge,NA,Dafni Beach,Morning,Black,y,11158,NA,11158
+sample.DBE_A_BROWN1,sponge,NA,Dafni Beach,Evening,Brown,y,2988,NA,2988
+sample.DBE_C_BROWN3,sponge,NA,Dafni Beach,Evening,Brown,y,585,NA,585
+sample.DBM_B_BROWN2et,sponge,NA,Dafni Beach,Morning,Brown,y,674,NA,674
+sample.KM_A_BROWN3,sponge,NA,Korakonissi,Morning,Brown,y,648,NA,648
+sample.DBE_A_1eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,y,15834,NA,15834
+sample.DBE_B_1eDNA,eDNA,NA,Dafni Beach,Evening,eDNA,y,24614,NA,24614
+sample.DBM_C_2eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,y,7644,NA,7644
+sample.DBM_C_3eDNA,eDNA,NA,Dafni Beach,Morning,eDNA,y,3822,NA,3822
+sample.KE_B_2eDNA,eDNA,NA,Korakonissi,Evening,eDNA,y,4275,NA,4275
+sample.KE_C_2eDNA,eDNA,NA,Korakonissi,Evening,eDNA,y,1909,NA,1909
+sample.KM_A_2eDNA,eDNA,NA,Korakonissi,Morning,eDNA,y,14692,NA,14692
+sample.KM_A_3eDNA,eDNA,NA,Korakonissi,Morning,eDNA,y,12256,NA,12256
+sample.KM_B_2eDNA,eDNA,NA,Korakonissi,Morning,eDNA,y,20327,NA,20327
+sample.KM_C_1eDNA,eDNA,NA,Korakonissi,Morning,eDNA,y,11930,NA,11930
+sample.KM_C_3eDNA,eDNA,NA,Korakonissi,Morning,eDNA,y,21863,NA,21863
+sample.KE_A_PURPLE1,sponge,NA,Korakonissi,Evening,Purple,y,4271,NA,4271
+sample.KE_B_PURPLE1,sponge,NA,Korakonissi,Evening,Purple,y,21529,NA,21529
+sample.KE_B_PURPLE2,sponge,NA,Korakonissi,Evening,Purple,y,548,NA,548
+sample.KM_A_PURPLE1,sponge,NA,Korakonissi,Morning,Purple,y,898,NA,898
+sample.KM_A_PURPLE3,sponge,NA,Korakonissi,Morning,Purple,y,137,NA,137
+sample.KM_B_PURPLE3,sponge,NA,Korakonissi,Morning,Purple,y,576,NA,576
+sample.KM_C_PURPLE3,sponge,NA,Korakonissi,Morning,Purple,y,4272,NA,4272
+sample.KM_B_unkown4,sponge,NA,Korakonissi,Morning,Unknown,y,2125,NA,2125
+DM_A_Stefano,UVC,Stefano,Dafni Beach,Morning,UVC,NA,NA,125,125
+DM_B_Stefano,UVC,Stefano,Dafni Beach,Morning,UVC,NA,NA,168,168
+DM_C_Stefano,UVC,Stefano,Dafni Beach,Morning,UVC,NA,NA,103,103
+DE_A_Stefano,UVC,Stefano,Dafni Beach,Evening,UVC,NA,NA,88,88
+DE_B_Stefano,UVC,Stefano,Dafni Beach,Evening,UVC,NA,NA,99,99
+DE_C_Stefano,UVC,Stefano,Dafni Beach,Evening,UVC,NA,NA,75,75
+KM_A_Stefano,UVC,Stefano,Korakonissi,Morning,UVC,NA,NA,181,181
+KM_B_Stefano,UVC,Stefano,Korakonissi,Morning,UVC,NA,NA,128,128
+KM_C_Stefano,UVC,Stefano,Korakonissi,Morning,UVC,NA,NA,117,117
+KE_A_Stefano,UVC,Stefano,Korakonissi,Evening,UVC,NA,NA,141,141
+KE_B_Stefano,UVC,Stefano,Korakonissi,Evening,UVC,NA,NA,118,118
+KE_C_Stefano,UVC,Stefano,Korakonissi,Evening,UVC,NA,NA,123,123
+DM_A_Charis,UVC,Charis,Dafni Beach,Morning,UVC,NA,NA,82,82
+DM_B_Charis,UVC,Charis,Dafni Beach,Morning,UVC,NA,NA,85,85
+DM_C_Charis,UVC,Charis,Dafni Beach,Morning,UVC,NA,NA,70,70
+DE_A_Charis,UVC,Charis,Dafni Beach,Evening,UVC,NA,NA,32,32
+DE_B_Charis,UVC,Charis,Dafni Beach,Evening,UVC,NA,NA,33,33
+DE_C_Charis,UVC,Charis,Dafni Beach,Evening,UVC,NA,NA,84,84
+KM_A_Charis,UVC,Charis,Korakonissi,Morning,UVC,NA,NA,108,108
+KM_B_Charis,UVC,Charis,Korakonissi,Morning,UVC,NA,NA,91,91
+KM_C_Charis,UVC,Charis,Korakonissi,Morning,UVC,NA,NA,76,76
+KE_A_Charis,UVC,Charis,Korakonissi,Evening,UVC,NA,NA,92,92
+KE_B_Charis,UVC,Charis,Korakonissi,Evening,UVC,NA,NA,93,93
+KE_C_Charis,UVC,Charis,Korakonissi,Evening,UVC,NA,NA,93,93
