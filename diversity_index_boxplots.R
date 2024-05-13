@@ -160,7 +160,7 @@ splot <-
         axis.title.x = element_text(face = "bold", size = 14, colour = "black"),
         legend.position = "none")
 
-## Supplemental Figure 1
+## richness plot, not used in paper
 rplot <-
   ggplot(shanplot, aes(x=sample_type, y=Richness, fill = sample_type)) + 
   scale_fill_manual(values = c("#004D40", "#FFC107", "#1E88E5")) +
@@ -236,13 +236,7 @@ group_by(shanplot_db, sample_type) %>%
 ## Wilcoxin rank-sum
 #pairwise.wilcox.test(shanplot_db$Shannon, shanplot_db$sample_type,
 #                     p.adjust.method = "BH")
-# eDNA and sponge; UVC and sponge; both are significantly different
-# but eDNA and UVC are not significantly different
-
-## THESE RESULTS FROM THE KW ARE UNEXPECTED
-## Because the sponge and eDNA groups are below a reasonable sample size for the 
-## kruskall wallis test, use Mann-Whitney just between eDNA nad UVC instead
-
+#
 ## Mann-Whitney U test eDNA and UVC
 shanplot_db2 <- subset(shanplot_db, sample_type=="eDNA"| sample_type=="UVC")
 wilcox.test(Shannon ~ sample_type, data=shanplot_db2, na.rm=TRUE, paired=FALSE, exact=FALSE, conf.int=TRUE) #p = 0.4306
