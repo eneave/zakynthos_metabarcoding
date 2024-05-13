@@ -5,7 +5,6 @@
 ## Stessplot for jaccard disstance NMDS for UVC
 
 stressplot(nmds.jaccard.ord.2)
-# save using Rstudio
 
 ## Stessplot for bray/jaccard disstance NMDS for eDNA before/after outlier removal
 
@@ -124,9 +123,6 @@ supp_nmds <- plot_grid(edna_nmds_j, edna_nmds_b, edna_nmds_noout_j, edna_nmds_no
                   labels = c('A','B','C','D'), 
                   label_size = 20,
                   nrow = 2)
-
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/beta_diversity/nmds_supp.jpg", 
-       plot = supp_nmds, width = 15, height = 10, dpi = 300, units = "in")
 
 
 
