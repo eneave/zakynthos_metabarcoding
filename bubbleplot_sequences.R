@@ -331,8 +331,6 @@ ggplot(motus8, aes(x = sample_type, y = scientific_name_final, fill = prop2)) +
         legend.direction = "vertical", 
         legend.box = "vertical") 
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/sequences_bubbleplot/heatmap1.jpg", 
-       plot = heatmap1, width = 8, height = 12, dpi = 300, units = "in")
 
 ## modify heatmap1
 
@@ -367,7 +365,7 @@ motus8$nis <- ifelse(motus8$nis2== "NIS", "NIS", "Native")
         legend.direction = "vertical", 
         legend.box = "vertical") 
 
-
+# Figure 2
 heatmap3 <-
     ggplot(motus8, aes(x = sample_type, y = scientific_name_final2, fill = prop2)) + 
     scale_y_discrete(limits = rev) +
@@ -394,8 +392,7 @@ heatmap3 <-
           legend.direction = "vertical", 
           legend.box = "vertical") 
   
-  ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/sequences_bubbleplot/heatmap_nis.jpg", 
-         plot = heatmap3, width = 8, height = 12, dpi = 300, units = "in")
+
 
 ## repeat heatmap 3 but add sponges
 
@@ -443,8 +440,6 @@ heatmap4 <-
           legend.direction = "vertical", 
           legend.box = "vertical") 
   
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/sequences_bubbleplot/heatmap_inclsponge_nis.jpg", 
-         plot = heatmap4, width = 8, height = 12, dpi = 300, units = "in")
 
 #####
 # Prepare data for bubble plot comparing eDNA and sponges
@@ -495,7 +490,7 @@ motus11$id1 <- factor(motus11$id1,
                                           "D7", "D8"))
 
 ## prepare bubbleplot
-
+## Figure 3
 #windows()
 bubbleplot1 <-
 ggplot(motus11, aes(x = id1, y = scientific_name_final, fill = sample_type, size = sqrt_reads)) + 
@@ -523,7 +518,5 @@ ggplot(motus11, aes(x = id1, y = scientific_name_final, fill = sample_type, size
         legend.direction = "vertical", 
         legend.box = "vertical")  
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/sequences_bubbleplot/bubblplot_molecular_nis.jpg", 
-       plot = bubbleplot1, width = 10, height = 8, dpi = 300, units = "in")
 
 
