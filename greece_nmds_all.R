@@ -5,8 +5,6 @@
 library(vegan)
 library(tidyverse)
 
-# open diversity_data.RData
-
 ## create second dataframe for presence absence
 samp2 <- ifelse(samp == 0, 0, 1)
 
