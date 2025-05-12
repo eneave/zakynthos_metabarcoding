@@ -1,15 +1,12 @@
-##########################
-## Map for Greece stuff ##
-##########################
+#######################
+## Map for Zakynthos ##
+#######################
 
-setwd("C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map")
-
-## load API key
-# youtube tutortial on google API: https://www.youtube.com/watch?v=Of_M4kcE9yM&t=0s
+setwd("C:/your/directory/map")
 
 library("rstudioapi")
 
-register_google(key = "AIzaSyCP1-zj-hf7kMpF_KNHa8dOeLERVF618aw")
+register_google(key = "your-API-key")
 
 library("ggplot2")
 library("ggmap")
@@ -88,7 +85,7 @@ ggmap(bigzak, extent = "panel", legend = "bottomright") +
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bigmap.jpg", 
+ggsave(filename="C:/bigmap.jpg", 
        plot = bigmap, width = 5, height = 5, dpi = 300, units = "in")
 
 bigmap2 <-
@@ -104,7 +101,7 @@ bigmap2 <-
         axis.title.x = element_text(face = "bold", size = 14, color = "black"), 
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bigmap2.jpg", 
+ggsave(filename="C:/bigmap2.jpg", 
        plot = bigmap2, width = 5, height = 5, dpi = 300, units = "in")
 
 
@@ -121,41 +118,8 @@ bigmap3 <-
         axis.title.x = element_text(face = "bold", size = 16, color = "black"), 
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bigmap3.jpg", 
+ggsave(filename="C:/bigmap3.jpg", 
        plot = bigmap3, width = 5, height = 5, dpi = 300, units = "in")
-
-#bigmap2 <-
-    ggmap(bigzak, extent = "panel", legend = "bottomright") +
-    geom_rect(xmin = 20.57, xmax = 21,   ymin = 37.63, ymax = 37.95, fill = "red", alpha = 0.8) +
-    geom_text(x = 19.5, y= 36, label = "Ionian Sea",
-              size = 4.5,color ="white") +
-    geom_text(x = 23, y= 39, label = "Greece",
-              size = 5,color ="white") +
-    geom_text(x = 21.5, y= 37.2, label = "Study area",
-              size = 4,color ="red") +
-    labs(x = "", y ="") +
-    theme(axis.text.y = element_text(color = "white", size = 16, face = "bold"), 
-          axis.text.x = element_text(color = "white", face = "bold", size = 16), 
-          axis.line = element_line(color = "white"),
-          axis.line.x.top = element_line(color = "white"),
-          axis.line.y.right = element_line(color = "white"),
-          axis.ticks = element_line(color = "white"),
-          panel.background = element_rect(fill = "transparent",
-                                          colour = NA_character_), # necessary to avoid drawing panel outline
-          panel.grid.major = element_blank(), # get rid of major grid
-          panel.grid.minor = element_blank(), # get rid of minor grid
-          plot.background = element_rect(fill = "transparent",
-                                         colour = NA_character_), # necessary to avoid drawing plot outline
-          legend.background = element_rect(fill = "transparent"),
-          legend.box.background = element_rect(fill = "transparent"),
-          legend.key = element_rect(fill = "transparent"))
-
-## DID not work, figure out how to make background transparent later...
-  
-#ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bigmap_transparent.png", 
-#         plot = bigmap2, width = 3, height = 3, dpi = 300, units = "in")
-
-  
 
 ## Main map
 
@@ -175,7 +139,7 @@ ggmap(zak, extent = "panel", legend = "bottomright") +
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/mainmap.jpg", 
+ggsave(filename="C:/mainmap.jpg", 
        plot = mainmap, width = 6.5, height = 6.5, dpi = 300, units = "in")
 
 
@@ -195,7 +159,7 @@ mainmap2 <-
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/mainmap2.jpg", 
+ggsave(filename="C:/mainmap2.jpg", 
        plot = mainmap2, width = 5.2, height = 5.2, dpi = 300, units = "in")
 
 ## Site maps
@@ -224,7 +188,7 @@ ggmap(k2) +
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/kmap.jpg", 
+ggsave(filename="C:/kmap.jpg", 
        plot = kmap, width = 5.2, height = 5.2, dpi = 300, units = "in")
 
 ggmap(b)
@@ -251,6 +215,6 @@ ggmap(b2) +
         axis.line = element_line(color = "black"),
         axis.ticks = element_line(color = "black"))
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/map/bmap.jpg", 
+ggsave(filename="C:/bmap.jpg", 
        plot = bmap, width = 5.2, height = 5.2, dpi = 300, units = "in")
 
