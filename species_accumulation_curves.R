@@ -2,7 +2,7 @@
 ## Species accumulation curve with Greece data
 ########################################################
 
-setwd("C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/beta_diversity")
+setwd("C:/your/directory/beta_diversity")
 
 library(BiodiversityR)
 
@@ -105,6 +105,6 @@ accumcurve <-
                                 "Aglieri et al. - Outside NMPZ")) +
   labs(x = "No. of eDNA samples", y = "No. of Fish Species", colour = "Location")
 
-ggsave(filename="C:/Users/beseneav/OneDrive - Liverpool John Moores University/PhD/Objective2_Erika/beta_diversity/accumcurve.jpg", 
+ggsave(filename="C:/accumcurve.jpg", 
        plot = accumcurve, width = 10, height = 5, dpi = 300, units = "in")
 
