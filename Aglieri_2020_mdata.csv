@@ -1,0 +1,13 @@
+id_seq,depth,mpa
+Zakynthos_EXT1_20m,deep,outside_MPA
+Zakynthos_EXT1_2m,shallow,outside_MPA
+Zakynthos_EXT2_20m,deep,outside_MPA
+Zakynthos_EXT2_2m,shallow,outside_MPA
+Zakynthos_EXT3_20m,deep,outside_MPA
+Zakynthos_EXT3_2m,shallow,outside_MPA
+Zakynthos_INT1_20m,deep,MPA
+Zakynthos_INT1_2m,shallow,MPA
+Zakynthos_INT2_20m,deep,MPA
+Zakynthos_INT2_2m,shallow,MPA
+Zakynthos_INT3_20m,deep,MPA
+Zakynthos_INT3_2m,shallow,MPA
